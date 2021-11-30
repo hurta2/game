@@ -1,0 +1,96 @@
+*{
+    background-color:  rgb(43, 43, 46);
+}
+
+.juego-titulo {
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+    margin-top: -40px;
+    margin-left: auto; 
+}
+
+.juego-info {
+    text-align: center;
+    font-size: 40px;
+    color: red;
+    margin-top: -40px;
+    margin-bottom: 30px;
+    margin-left: 43%;
+    height: 35px;
+    width: 200px; 
+}
+
+.juego-cuadricula{
+    height:390px;
+    width: 390px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap:0;
+    margin: auto;
+}
+
+.cuadro{
+    width:120PX;
+    height: 120PX;
+    border: 2px solid rgb(168, 168, 168);
+    text-align: center;
+    color:black;
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    transition: background-color ease-in 0.1s;
+    margin: auto;
+}
+
+.cuadro:hover{
+    background-color: rgb(136, 156, 162);   
+}
+
+.juego-boton{
+    width: 65px;
+    height: 28px;
+    font-size: 20px;
+    background:white;
+    color: black;
+    cursor: pointer;
+    padding: 4px;
+    margin-top: 230px;
+    margin-left: 47%;
+    text-align: center;
+}
+
+.juego-boton:hover{
+    background: rgb(136, 156, 162);
+}
+
+.marcador {
+    width: 100%;
+    color: red;
+    font-size: 50px;
+}
+
+.jugador-uno {
+    margin-top: -350px;
+    margin-left: 230px;
+}
+
+.jugador-dos {
+    margin-top: -125px;
+    margin-left: 1060px;
+}
+
+.puntos {
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    border: none;
+    margin-left: -10px;
+    margin-top: 10px;
+    color: red;
+    font-size: 30px;
+    text-align: center;
+    padding: 12px;
+}
